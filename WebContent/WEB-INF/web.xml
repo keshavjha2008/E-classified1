@@ -13,16 +13,16 @@
 
   <context-param>
     <param-name>url</param-name>
-    <param-value>jdbc:mysql://localhost/eclassified</param-value>
+    <param-value>jdbc:mysql://mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/keshav</param-value>
   </context-param>
 
   <context-param>
     <param-name>user</param-name>
-    <param-value>root</param-value>
+    <param-value>adminXNaHQZa</param-value>
   </context-param>
 
   <context-param>
     <param-name>pass</param-name>
-    <param-value>keshav</param-value>
+    <param-value>PcKhdXcJNYB8</param-value>
   </context-param>
 </web-app>
